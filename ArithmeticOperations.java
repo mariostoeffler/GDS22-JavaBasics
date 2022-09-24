@@ -10,6 +10,5 @@ public class ArithmeticOperations {
         System.out.println("Ergebnis der Division = " + (a / b));
 
         System.out.println("Ergebnis der Modulo Rechnung = " + (a % b));
-
     }
 }
