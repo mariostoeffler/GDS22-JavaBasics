@@ -11,8 +11,9 @@ public class Calculator {
         int resultmult = mult(5, 3);
         System.out.println("result mult = " + resultmult);
 
-        double resultdiv = div(5, 3);
-        System.out.println("result div = " + resultdiv);
+
+        double resultdiv = div(5, 15);
+
 
         double resultmod = mod(5, 3);
         System.out.println("result mod = " + resultmod);
@@ -33,8 +34,13 @@ public class Calculator {
         return result;
     }
 
-    public static double div(double a, double b) {
-        double result = a / b;
+    public static double div(double z, double k) {
+        double result = z / k;
+        if (k != 0) {
+            System.out.println("result div = " + result);
+        } else {
+            System.out.println("Nicht durch 0 dividieren!");
+        }
         return result;
     }
 
